@@ -28,7 +28,7 @@ public class operatorsConcepts {
         boolean resu = x<y && a<b;
         System.out.println(resu);
 
-
+        
 
     }
 }
