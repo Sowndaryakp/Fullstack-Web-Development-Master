@@ -1,11 +1,5 @@
-public class BasicConcepts{
-    public static void main(String[] args){
-        //variables
-        int number1=1;
-        int number2=2;
-        int result= number1+number2;
-        System.out.println(result);
-
+public class dataTypesConcepts {
+    public static void main(String[] args) {
         //data types
         // int num1=10;
         // byte by=127;
@@ -46,9 +40,5 @@ public class BasicConcepts{
         byte b=30;
         int res= a*b;
         System.out.println(res);
-
-        //Operators
-        
     }
-    
-} 
+}
