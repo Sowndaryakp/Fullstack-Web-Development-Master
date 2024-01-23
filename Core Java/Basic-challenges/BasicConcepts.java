@@ -1,4 +1,4 @@
-public class Hello{
+public class BasicConcepts{
     public static void main(String[] args){
         //variables
         int number1=1;
@@ -47,6 +47,8 @@ public class Hello{
         int res= a*b;
         System.out.println(res);
 
+        //Operators
+        
     }
     
 } 
