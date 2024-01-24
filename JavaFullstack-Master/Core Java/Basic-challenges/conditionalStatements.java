@@ -8,12 +8,23 @@ public class conditionalStatements {
         }
 
 
-        int a=5;
-        int b=7;
+        int a=8;
+        int b=17;
+        int c=9;
         if(a>b){
             System.out.println(a);
+            System.out.println("Thank You");
         }else{
             System.out.println(b);
         }
+
+        if(a>b && a>c){
+            System.out.println("Both conditions are true");
+        }else if(b>c && b>a){
+            System.out.println("Second condition is true");
+        }else{
+            System.out.println(c);
+        }
+        
     }
 }
