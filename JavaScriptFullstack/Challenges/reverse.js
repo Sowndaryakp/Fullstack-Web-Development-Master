@@ -13,6 +13,10 @@
 
 
 //2. using inbuilt function
+// function reveresString(str){
+//     return str.split("").reverse().join("");
+// }
+
 //reverse words String using for loop
 function reverseWords(str){
     let reversedWords = " ";
