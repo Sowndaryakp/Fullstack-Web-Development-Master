@@ -93,7 +93,7 @@ console.log(counter());
 console.log(counter());
 //Note : This ability of a function to store a variable for further reference even after it is executed is called Closure.
 
-//Callback : Functions that are used as an argument to another function are called callback functions.
+//Callback : s a function passed as an argument to another function, which will be invoked or executed later.
 //or  passed as an argument to another function and is executed after a particular operation or task is completed.
 // Function with a callback parameter
 function fetchData(callback) {
@@ -103,21 +103,123 @@ function fetchData(callback) {
       callback(data); // Invoke the callback with the data
     }, 1000);
   }
-  
   // Callback function to handle the data
   function handleData(result) {
     console.log(result);
   }
-  
   // Using the callback
   fetchData(handleData);
 
+//rest parameter : allows you to represent an indefinite number of arguments as an array.
+function sum(...numbers){
+    return numbers.reduce((total, num) => total + num, 0 );
+}
+console.log(sum(1,2,3,4,5));
+
+//// spread operator : allows you to expand elements of an array or object into individual elements.
+// Using spread operator in function calls
+const numbers = [1, 2, 3, 4, 5];
+console.log(Math.max(...numbers)); // Output: 5
+
+// Using spread operator in array literals
+const arr1 = [1, 2, 3];
+const arr2 = [4, 5, 6];
+const mergedArray = [...arr1, ...arr2];
+console.log(mergedArray); // Output: [1, 2, 3, 4, 5, 6]
+
+// Using spread operator in object literals (ES9 and later)
+const obj11 = { a: 1, b: 2 };
+const obj22 = { c: 3, d: 4 };
+const mergedObject = { ...obj11, ...obj22 };
+console.log(mergedObject); // Output: { a: 1, b: 2, c: 3, d: 4 }
+
+//Note : Rest parameter is used to take a variable number of arguments and turns them into an array while the spread operator takes an array or an object and spreads it
+// Rest parameter is used in function declaration whereas the spread operator is used in function calls.
+
+//JavaScript, there are several methods to create objects:
+//Object literal
+const objectLiteral = {name : "sow"};
+
+//Constructor function
+function constructorFuncN(name, age){
+    this.name =  name;
+    this.age = age;
+}
+const constructorFuncO = new constructorFuncN("sownd", 23);
+
+//object.create()
+const objN = Object.create(proto);
+
+///Class syntax(include in ES6)
+class classSyntax{
+    constructor(name, age){
+        this.name = name;
+        this.age = age;
+    }
+}
+const  classSyntaxO = new classSyntax("sown", 30);
+
+//Factory Function :
+function createPerson(name, age) {
+    return {
+      name: name,
+      age: age
+    };
+  }
+  const createPersonN = createPerson('John', 30);
+  console.log(createPersonN);
+
+//Promise : are objects that represent the eventual completion or failure of an asynchronous operation.
+
+// Function that returns a promise
+function fetchData() {
+    return new Promise((resolve, reject) => {
+      // Simulating an asynchronous operation
+      setTimeout(() => {
+        const success = true;
+        if (success) {
+          const data = "Hello, promises!";
+          resolve(data); // Resolve the promise with the data
+        } else {
+          reject(new Error("Failed to fetch data")); // Reject the promise with an error
+        }
+      }, 1000);
+    });
+  }
+  
+  // Using the promise
+  fetchData()
+    .then((result) => {
+      console.log(result); // Handle the resolved data
+    })
+    .catch((error) => {
+      console.error(error.message); // Handle any errors
+    });
 
 
+//Async/await : async keyword is used to declare a function as asynchronous, and the await keyword is used to pause the execution of the function until a Promise is resolved,
+async function fetchData() {
+    return new Promise(resolve => {
+        // Simulating an asynchronous operation
+        setTimeout(() => {
+            console.log("Data fetched!");
+            resolve("Data");
+        }, 1000);
+    });
+}
 
+// Using async/await to handle the Promise
+async function fetchDataAndLog() {
+    try {
+        const data = await fetchData();
+        console.log("Async/Await completed:", data);
+    } catch (error) {
+        console.error("Async/Await error:", error);
+    }
+}
 
-//Promise
-//Async/await
+fetchDataAndLog();
+
 
 
 //vue js
