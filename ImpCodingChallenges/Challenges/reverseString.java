@@ -31,7 +31,7 @@ public class reverseString{
             char temp = chars[left];
             chars[left] = chars[right];
             chars[right] = temp;
-
+            
             left++;
             right--;
         }
