@@ -26,7 +26,7 @@ public class stringConcepts {
         System.out.println(sb.append(" Shetty"));
         System.out.println(sb.deleteCharAt(2));
         System.out.println(sb.insert(0, "java"));
-        
+        //sop
         String str = sb.toString();
         System.out.println(str);
     }
