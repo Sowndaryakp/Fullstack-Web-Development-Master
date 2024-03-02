@@ -1,0 +1,38 @@
+Wealth Management-Bengaluru-Analyst-Software Engineering
+Bengaluru, Karnataka, India
+JOB DESCRIPTION
+How will you fulfill your potential?
+
+Work with a global team of highly motivated platform engineers and software developers building integrated architectures for secure, scalable infrastructure services serving a diverse set of use cases.
+Partner with colleagues from across technology and risk to ensure an outstanding Private Bank platform is delivered.
+Help to provide frictionless integration with the firm’s runtime, deployment and SDLC technologies.
+Collaborate on feature design and problem solving.
+Help to ensure reliability, define, measure, and meet service level objectives.
+Quality coding & integration, testing, release, and demise of software products supporting Private Bank (PB) functions.
+Engage in quality assurance and production troubleshooting.
+Help to communicate and promote best practices for software engineering across the Wealth Management tech stack.
+Basic Qualifications 
+
+A strong grounding in software engineering concepts and implementation of architecture design patterns.
+A good understanding of multiple aspects of software development in microservices architecture, full stack development experience, Identity / access management and technology risk.
+Sound SDLC and practices and tooling experience - version control, CI/CD and configuration management tools.
+Ability to communicate technical concepts effectively, both written and orally, as well as interpersonal skills required to collaborate effectively with colleagues across diverse technology teams.
+Experience meeting demands for high availability and scalable system requirements.
+Ability to reason about performance, security, and process interactions in complex distributed systems.
+Ability to understand and effectively debug both new and existing software.
+Experience with metrics and monitoring tooling, including the ability to use metrics to rationally derive system health and availability information.
+Experience in auditing and supporting software based on sound SRE principles.
+Preferred Qualifications
+
+Experience using and/or supporting Java based frameworks & SQL / NOSQL data stores.
+Experience with deploying software to containerized environments - Kubernetes/Docker.
+Scripting skills using Python, Shell or bash.
+Experience with Terraform or similar infrastructure-as-code platforms.
+Experience building services using public cloud providers such as AWS, Azure or GCP.ABOUT GOLDMAN SACHS
+
+At Goldman Sachs, we commit our people, capital and ideas to help our clients, shareholders and the communities we serve to grow. Founded in 1869, we are a leading global investment banking, securities and investment management firm. Headquartered in New York, we maintain offices around the world.  
+We believe who you are makes you better at what you do. We're committed to fostering and advancing diversity and inclusion in our own workplace and beyond by ensuring every individual within our firm has a number of opportunities to grow professionally and personally, from our training and development opportunities and firmwide networks to benefits, wellness and personal finance offerings and mindfulness programs. Learn more about our culture, benefits, and people at GS.com/careers. 
+We’re committed to finding reasonable accommodations for candidates with special needs or disabilities during our recruiting process. Learn more: https://www.goldmansachs.com/careers/footer/disability-statement.html
+
+© The Goldman Sachs Group, Inc., 2023. All rights reserved.
+Goldman Sachs is an equal employment/affirmative action employer Female/Minority/Disability/Veteran/Sexual Orientation/Gender
